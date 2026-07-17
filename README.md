@@ -1,3 +1,21 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="Drone Vision — Détection de drones par YOLOv11" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/YOLOv11-Ultralytics-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" alt="YOLOv11">
+  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX">
+  <img src="https://img.shields.io/badge/Roboflow-6706CE?style=for-the-badge&logo=roboflow&logoColor=white" alt="Roboflow">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face">
+</p>
+
+<p align="center">
+  🌐 <a href="https://pamalick00-detection-drones.static.hf.space"><b>Démo live (détection dans le navigateur)</b></a>
+</p>
+
 # Projet 1 : Détection de drones militaires avec YOLOv11
 
 Examen de Computer Vision. Détection de drones militaires dans des images, réalisée de bout en bout : collecte, annotation, entraînement, évaluation, démonstration.
@@ -32,3 +50,24 @@ Puis ouvrir le notebook sur Colab, activer le GPU T4, importer `dataset.zip` dan
 ## Configuration retenue
 
 YOLOv11s pré-entraîné sur COCO. SGD, learning rate 0.005 avec warmup, gel du backbone (freeze=10), 120 époques avec patience 40, augmentation géométrique allégée (mosaic 0.5, mixup 0, pas de rotation).
+
+## Démo interactive
+
+Le dossier `site/` contient une vitrine web (Vue 3 + Vite) dont la démo fait tourner
+le modèle **entièrement dans le navigateur** via ONNX Runtime Web — aucun serveur.
+Déployée gratuitement en Static Space :
+👉 **https://pamalick00-detection-drones.static.hf.space**
+
+---
+
+## 👤 Auteur
+
+**Papa Malick NDIAYE** — Étudiant en Master 2 Data Science &amp; Génie Logiciel
+(Université Alioune Diop de Bambey, Sénégal). Computer Vision, Deep Learning et
+déploiement de modèles en production.
+
+<p>
+  <a href="https://github.com/pa-malick"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="mailto:njaymika@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/papa-malick-ndiaye-b58b22309"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>

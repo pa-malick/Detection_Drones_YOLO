@@ -1,0 +1,37 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Drone Vision — Détection de drones par YOLOv11">
+  <rect width="1000" height="260" fill="#020617"/>
+
+  <!-- Cadre de détection (viewfinder) autour de l'icône -->
+  <g stroke="#C6F135" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M62 78 V54 H86"/>
+    <path d="M214 54 H238 V78"/>
+    <path d="M238 182 V206 H214"/>
+    <path d="M86 206 H62 V182"/>
+  </g>
+
+  <!-- Glyphe drone (quadricoptère) -->
+  <g transform="translate(150,130)">
+    <!-- bras -->
+    <g stroke="#E8E8E3" stroke-width="4" stroke-linecap="round">
+      <line x1="-20" y1="-11" x2="-45" y2="-42"/>
+      <line x1="20" y1="-11" x2="45" y2="-42"/>
+      <line x1="-20" y1="11" x2="-45" y2="42"/>
+      <line x1="20" y1="11" x2="45" y2="42"/>
+    </g>
+    <!-- rotors -->
+    <g stroke="#C6F135" stroke-width="5" fill="none">
+      <circle cx="-45" cy="-42" r="18"/>
+      <circle cx="45" cy="-42" r="18"/>
+      <circle cx="-45" cy="42" r="18"/>
+      <circle cx="45" cy="42" r="18"/>
+    </g>
+    <!-- corps -->
+    <rect x="-20" y="-12" width="40" height="24" rx="7" fill="none" stroke="#E8E8E3" stroke-width="4"/>
+    <circle cx="0" cy="0" r="4" fill="#C6F135"/>
+  </g>
+
+  <!-- Textes -->
+  <text x="300" y="96" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-size="20" letter-spacing="4" fill="#C6F135">// COMPUTER VISION</text>
+  <text x="298" y="150" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-weight="700" font-size="58" fill="#E8E8E3">DRONE <tspan fill="#C6F135">VISION</tspan></text>
+  <text x="300" y="192" font-family="'JetBrains Mono','Consolas',monospace" font-size="22" fill="#8A93A6">Détection de drones militaires · YOLOv11</text>
+</svg>
