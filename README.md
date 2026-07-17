@@ -16,9 +16,9 @@
   🌐 <a href="https://pamalick00-detection-drones.static.hf.space"><b>Démo live (détection dans le navigateur)</b></a>
 </p>
 
-# Projet 1 : Détection de drones militaires avec YOLOv11
+# Projet : Détection de drones militaires avec YOLOv11
 
-Examen de Computer Vision. Détection de drones militaires dans des images, réalisée de bout en bout : collecte, annotation, entraînement, évaluation, démonstration.
+Computer Vision - Détection de drones militaires dans des images, réalisée de bout en bout : collecte, annotation, entraînement, évaluation, démonstration.
 
 Résultats sur le jeu de test : Precision 0.927, Recall 0.875, mAP@50 0.884, mAP@50-95 0.546.
 
@@ -62,7 +62,7 @@ Déployée gratuitement en Static Space :
 
 ## 👤 Auteur
 
-**Papa Malick NDIAYE** — Étudiant en Master 2 Data Science &amp; Génie Logiciel
+**Papa Malick NDIAYE** - Étudiant en Master 2 Data Science &amp; Génie Logiciel
 (Université Alioune Diop de Bambey, Sénégal). Computer Vision, Deep Learning et
 déploiement de modèles en production.
 
