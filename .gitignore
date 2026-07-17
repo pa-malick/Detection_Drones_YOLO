@@ -1,7 +1,9 @@
 # Rapports (documents) — non publiés sur GitHub
 *.docx
-*.pdf
 ~$*
+
+# Approche Gradio abandonnée (non publiée)
+app_gradio/
 
 # Dépendances & artefacts de build du site
 node_modules/
